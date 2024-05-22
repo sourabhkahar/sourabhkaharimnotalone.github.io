@@ -63,8 +63,8 @@
 		align-items: center;
 		justify-content: center;
 		border: none;
-		background-color: #e24340;
-		color: #fff;
+		background-color: #ffea3d;
+		color: #2b2e34;
 		margin-left: auto;
 	}
 
@@ -79,6 +79,13 @@
 		padding: 15px 0;
 		display: flex;
 		border-bottom: 1px solid #ddd;
+		transition: all 0.5s ease 0s;
+	}
+
+	.main-menu ul li a:hover, .main-menu ul li a.active {
+		padding: 15px;
+		background-color: #ffea3d;
+		color: #2b2e34;
 	}
 
 	.section-gapping {
@@ -125,6 +132,11 @@
 	.join-section h3 {
 		font-size: 26px;
 	}
+
+	.top-menu-header {
+		display: flex;
+		align-items: center;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -144,7 +156,7 @@
 
 	.custom-radio .field-box,
 	.custom-radio .col-4 {
-		margin-bottom: 15PX;
+		margin-bottom: 15px;
 	}
 
 	.custom-radio .field-box .field,
